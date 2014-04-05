@@ -1,0 +1,45 @@
+body {
+  background-color: #2E2E2E;
+  margin: 0%;
+}
+
+#top {
+  height: 100px;
+}
+
+#btnToplist {
+  height: 100px;
+  width: 25%;
+  position: fixed;
+  background-color: red;
+}
+
+#btnTopmain {
+  margin-left: 25%;
+  height: 100px;
+  width: 50%;
+  position: fixed;
+  background-color: orange;
+}
+
+#btnTopback {
+  margin-left: 75%;
+  height: 100px;
+  width: 12.5%;
+  position: fixed;
+  background-color: yellow;
+}
+
+#btnTopfront {
+  margin-left: 87.5%;
+  height: 100px;
+  width: 25%;
+  position: fixed;
+  background-color: green;
+}
+
+#contentBox {
+  border: 1px solid red;
+  height: 1000px;
+  background-color: white;
+}
