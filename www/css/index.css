@@ -39,8 +39,11 @@ body {
 }
 
 #contentBox {
-  border: 1px solid red;
   height: 1000px;
-  background-color: white;
-  position: hid;
+  background-color: #F5ECCE;
+}
+
+#content1 {
+	height: 1000px;
+	background-color: #F6CEEC;
 }
