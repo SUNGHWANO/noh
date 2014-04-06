@@ -1,24 +1,28 @@
 $(function(){
-	
+
 	$("#btnTopmain").click(function(){
+
+		$("#contentMain").css({
+			"display": "none"
+		});
+
 		$("#contentBox").css({
 			"display": ""
 		});
-		
-		$("#content1").css({
-			"display": "none"
-		});
+
 	});
-	
-	
-	
-	$("#btnNext").click(function(){
-		$("#content1").css({
-			"display": ""
-		});
-		
+
+
+
+	$("#btnNext").click(function(){	
+
 		$("#contentBox").css({
 			"display": "none"
 		});
+
+		$("#contentMain").css({
+			"display": ""
+		});
+
 	});
 });
